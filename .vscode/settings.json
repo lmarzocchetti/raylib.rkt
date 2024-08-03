@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "array": "c",
+        "type_traits": "c",
+        "limits": "c",
+        "ratio": "c",
+        "tuple": "c",
+        "variant": "c"
+    }
+}
