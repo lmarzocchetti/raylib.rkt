@@ -1,5 +1,7 @@
 #lang racket
 
+(provide raylib-h-source raylib-h-structs raylib-h-enums raylib-h-functions)
+
 (define raylib-h-source 
   (let* ([raylib-source (port->string (open-input-file "raylib-5.0/src/raylib.h") #:close? #t)]
          [splitted (map string-trim (string-split raylib-source "\n"))])

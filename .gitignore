@@ -2,3 +2,5 @@
 
 .vscode/
 raylib-5.0/
+libraylib.dylib
+raylib-prova.rkt
